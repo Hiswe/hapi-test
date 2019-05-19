@@ -1,0 +1,19 @@
+{
+  "name": "hapi-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Hiswe/hapi-test.git",
+  "author": "Hiswe <hiswehalya@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --require esm index.js",
+    "start": "NODE_ENV=production node -r esm index.js"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
